@@ -16,7 +16,7 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 SERVER_ID = int(os.getenv("GUILD_ID", "1397286059406000249"))
 CHANNEL_ID = int(os.getenv("CHANNEL_ID", "1400374068997521438"))
 SHEET_ID = os.getenv("GOOGLE_SHEET_ID")
-SHEET_NAME = "Skladnictví"
+SHEET_NAME = "Dropy2"
 
 # Soubor pro uložení stavu (persistent storage)
 STATE_FILE = "/tmp/warehouse_bot_state.json"
